@@ -10,7 +10,7 @@ class PhotoEditor:
         self.display = None
 
         # --- Step 1: UI Layout ---
-        tk.Button(root, text="Step 1: Upload Image", command=self.upload, bg="lightgrey").pack(pady=5)
+        tk.Button(root, text="Step 1-: Upload Image", command=self.upload, bg="lightgrey").pack(pady=5)
         
         self.label = tk.Label(root)
         self.label.pack()
