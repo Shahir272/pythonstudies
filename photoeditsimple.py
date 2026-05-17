@@ -5,7 +5,7 @@ from PIL import Image, ImageTk, ImageFilter  # Added ImageFilter here
 class PhotoEditor:
     def __init__(self, root):
         self.root = root
-        self.root.title("Python RGB Master Editor")
+        self.root.title("Python RGB Master Editor Software")
         self.orig = None  
         self.display = None
 
